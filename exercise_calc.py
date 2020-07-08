@@ -3,10 +3,9 @@ import math
 
 class Functions:
 
-    @staticmethod
-    def find_sqrt(num):
+
+    def find_sqrt(self, num):
         return math.sqrt(num)
 
-    @staticmethod
-    def find_ceil(num):
+    def find_ceil(self, num):
         return math.ceil(num)
